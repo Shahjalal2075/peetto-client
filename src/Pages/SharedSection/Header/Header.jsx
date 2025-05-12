@@ -69,7 +69,7 @@ const Header = () => {
 
             {/* Navbar */}
 
-            <div className="bg-[#fff2f2] relative my-6">
+            <div className="bg-[#fff2f2] relative py-6">
                 <div className="container mx-auto flex justify-center items-center gap-8 text-sm font-medium relative font-kdam">
                     <div className="relative">
                         <div

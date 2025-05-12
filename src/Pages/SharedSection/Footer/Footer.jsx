@@ -48,11 +48,11 @@ const Footer = () => {
                 </div>
             </div>
             {/* Payment Methods Section */}
-            <div className="py-10">
+            <div className="pt-10 pb-6">
                 <img src="assets/banner/payment-banner.png" alt="" />
             </div>
 
-            <div className="text-center text-base text-[#000]">
+            <div className="text-center text-base text-[#000] border-2 border-[#EDEDED] border-x-0 border-b-0 pt-8">
                 <p><strong>Peetto.Com© 2025</strong> All Rights Reserved</p>
             </div>
         </div>

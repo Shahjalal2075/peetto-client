@@ -314,7 +314,7 @@ const Home = () => {
             {/* Pranir Khabar */}
             <div className="bg-[#fff]">
                 <div className="container mx-auto py-8">
-                    <div className="flex justify-between items-center">
+                    <div className="flex justify-between items-center border border-[#EDEDED] border-x-0 border-t-0 pb-4">
                         <h2 className='font-kdam font-medium text-2xl text-[#000]'>প্রাণীর খাবার</h2>
                         <Link className='font-kdam font-medium text-base text-[#FF5653] flex justify-center items-center gap-1'>সব দেখুন <FaChevronRight /></Link>
                     </div>
@@ -343,7 +343,7 @@ const Home = () => {
             {/* Vetenari Doctor */}
             <div className="bg-[#FFF]">
                 <div className="container mx-auto py-8">
-                    <div className="flex justify-between items-center">
+                    <div className="flex justify-between items-center border border-[#EDEDED] border-x-0 border-t-0 pb-4">
                         <h2 className='font-kdam font-medium text-2xl text-[#000]'>ভেটেরিনারি ডাক্তার</h2>
                         <Link className='font-kdam font-medium text-base text-[#FF5653] flex justify-center items-center gap-1'>সব দেখুন <FaChevronRight /></Link>
                     </div>
@@ -379,7 +379,7 @@ const Home = () => {
             </div>
 
             {/* Footer Section */}
-            <div className="pt-8 pb-16">
+            <div className="py-8">
                 <Footer />
             </div>
         </div>
